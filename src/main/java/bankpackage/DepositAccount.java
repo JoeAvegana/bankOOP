@@ -1,4 +1,8 @@
 package bankpackage;
+
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
 /*
  * 1. Создать класс "Счет в банке" - Account.
  * У этого класса должно быть поле с текущим балансом на счете.
@@ -16,30 +20,18 @@ package bankpackage;
  * То есть, нужно завести поле с датой последнего снятия, и использовать его.
  * (Для дат лучше использовать LocalDate, пример в классе Dates в проекте урока)
  */
+public class DepositAccount extends Account {
+    private LocalDate lastWithdraw;
 
-public abstract class Account {
-    protected String name;
-    protected double money;
-
-    public void put(double money) {
-        if (money > 0) {
-            this.money += money;
-        } else {
-            throw new IllegalArgumentException("Значение должно быть опожительным");
-        }
-
-    }
-
+    @Override
     public void take(double money) {
-        if (money > 0) {
-            this.money -= money;
-        } else {
+        LocalDate currentDate = LocalDate.now();
+        if (lastWithdraw == null || ChronoUnit.MONTHS.between(currentDate, lastWithdraw) > 1){
+            lastWithdraw = currentDate;
+            super.take(money);
+        }else{
             throw new IllegalArgumentException("Значение должно быть положительным");
         }
-    }
-
-    public double getAmount() {
-        return money;
     }
 
 }

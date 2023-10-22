@@ -1,7 +1,5 @@
 package bankpackage;
 
-import bankpackage.Account;
-
 /*
  * 1. Создать класс "Счет в банке" - Account.
  * У этого класса должно быть поле с текущим балансом на счете.
@@ -20,12 +18,13 @@ import bankpackage.Account;
  * (Для дат лучше использовать LocalDate, пример в классе Dates в проекте урока)
  */
 public class CreditAccount extends Account {
-   @Override
-    public void take(){
-       if (money > 0){
-           this.money -=money;
-       } else {
-           System.err.println("не удалось вывести средства");
-       }
-   }
+    @Override
+    public void take(double money) {
+        if (money > 0) {
+            super.money -= money + money * 0.01;
+        } else {
+            throw new IllegalArgumentException("Значение должно быть положительным");
+        }
+    }
+
 }
