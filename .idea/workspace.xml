@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bb9415f-b03e-49da-a57f-cb2374ac8f45" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankpackage/DepositAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bankpackage/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bankpackage/CreditAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankpackage/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankpackage/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankpackage/CreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankpackage/CreditAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,13 +44,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrdav/IdeaProjects/oop_20231012&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/mrdav/IdeaProjects/bankOOP"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bankpackage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreditAccountTest.creditTest">
+    <configuration name="AccountTest.getAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankpackage" />
+      <option name="MAIN_CLASS_NAME" value="bankpackage.AccountTest" />
+      <option name="METHOD_NAME" value="getAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankpackage" />
+      <option name="MAIN_CLASS_NAME" value="bankpackage.AccountTest" />
+      <option name="METHOD_NAME" value="testPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testTake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankpackage" />
+      <option name="MAIN_CLASS_NAME" value="bankpackage.AccountTest" />
+      <option name="METHOD_NAME" value="testTake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditAccountTest.creditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankpackage" />
+      <option name="MAIN_CLASS_NAME" value="bankpackage.CreditAccountTest" />
+      <option name="METHOD_NAME" value="creditTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreditAccountTest.creditTest" />
+        <item itemvalue="JUnit.AccountTest.getAmount" />
+        <item itemvalue="JUnit.AccountTest.testTake" />
+        <item itemvalue="JUnit.AccountTest.testPut" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,5 +168,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/bankpackage/CreditAccountTest.java</url>
+          <line>22</line>
+          <properties class="bankpackage.CreditAccountTest" method="creditTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

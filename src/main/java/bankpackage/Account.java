@@ -17,7 +17,7 @@ package bankpackage;
  * (Для дат лучше использовать LocalDate, пример в классе Dates в проекте урока)
  */
 
-public abstract class Account {
+public class Account {
     protected String name;
     protected double money;
 
